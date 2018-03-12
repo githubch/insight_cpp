@@ -1,0 +1,12 @@
+output
+output/*
+*.a
+*.out
+*.o
+*main
+*test
+*/*.a
+*/*.out
+*/*.o
+*/*main
+*/*test
