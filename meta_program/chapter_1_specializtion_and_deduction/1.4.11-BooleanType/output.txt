@@ -1,0 +1,14 @@
+// 
+g++ main.cc -o ../../../output/test -std=c++11
+
+
+// compile error as following:
+
+main.cc: In function ‘int main(int, char**)’:
+main.cc:15:13: error: no match for ‘operator+’ (operand types are ‘B’ and ‘int’)
+   int i = b + 2;
+             ^
+main.cc:25:9: error: cannot convert ‘C’ to ‘void*’ for argument ‘1’ to ‘void free(void*)’
+   free(c);
+         ^
+
